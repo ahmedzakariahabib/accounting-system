@@ -1,0 +1,173 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🌗 إعداد الثيم العام */
+@layer base {
+  :root {
+    /* 🎨 ألوان عامة */
+    --color-primary: #008080; /* Rich Teal */
+
+    /* Light Theme Defaults */
+    --color-background: #FAF9F6;
+    --color-card: #FFFFFF;
+    --color-text: #333333;
+    --color-muted: #666666;
+    --color-border: #E0E0E0;
+    --color-table-header: #f9fafb;
+    --color-hover-bg: #f8f9fa;
+    --color-primary-hover: #f0fffe;
+
+    /* Light Mode - Status Colors */
+    --color-status-paid-bg: #dcfce7;
+    --color-status-paid-text: #15803d;
+    --color-status-pending-bg: #fef9c3;
+    --color-status-pending-text: #854d0e;
+    --color-status-overdue-bg: #fee2e2;
+    --color-status-overdue-text: #b91c1c;
+
+    /* 💅 الخطوط والإعدادات */
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont,
+      "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+
+    color-scheme: light dark;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* 🌙 الوضع الداكن */
+  .dark {
+    --color-primary: #4db6ac;
+    --color-background: #102022;
+    --color-card: #1A2C2E;
+    --color-text: #E0E0E0;
+    --color-muted: #A0A0A0;
+    --color-border: #3A4D50;
+    --color-table-header: #2a3d40;
+    --color-hover-bg: #2a3d40;
+    --color-primary-hover: #1a2c2e;
+
+    /* Dark Mode - Status Colors */
+    --color-status-paid-bg: #1a3a2e;
+    --color-status-paid-text: #4ade80;
+    --color-status-pending-bg: #3a2e1a;
+    --color-status-pending-text: #facc15;
+    --color-status-overdue-bg: #3a1a1a;
+    --color-status-overdue-text: #f87171;
+  }
+
+  /* ✨ تنسيق عام للجسم */
+  body {
+    @apply font-display min-h-screen transition-colors duration-300
+           bg-[var(--color-background)] text-[var(--color-text)];
+  }
+
+  a {
+    @apply font-medium text-[var(--color-primary)] hover:underline;
+  }
+
+  button {
+    @apply font-semibold transition-colors duration-200 rounded-lg;
+  }
+}
+
+/* 🧩 المكونات العامة */
+@layer components {
+  .card {
+    @apply rounded-xl border shadow-sm p-6
+           border-[var(--color-border)]
+           bg-[var(--color-card)];
+  }
+
+  .input {
+    @apply w-full rounded-lg border px-4 py-3 text-base
+           border-[var(--color-border)]
+           bg-[var(--color-background)]
+           text-[var(--color-text)]
+           placeholder-[var(--color-muted)]
+           focus:border-[var(--color-primary)]
+           focus:ring-[color:var(--color-primary)]
+           focus:ring-opacity-20
+           focus:outline-none;
+  }
+
+  .btn-primary {
+    @apply flex h-12 w-full items-center justify-center rounded-lg 
+           bg-[var(--color-primary)] text-white font-bold 
+           shadow-sm hover:opacity-90 transition-opacity;
+  }
+}
+
+/* 🔠 الخط الافتراضي */
+@layer utilities {
+  .font-display {
+    font-family: "Inter", sans-serif;
+  }
+}
+@media print {
+  /* أخفي كل شيء في الصفحة */
+  body * {
+    visibility: hidden;
+  }
+
+  /* أظهر فقط عنصر الفاتورة */
+  .invoice, .invoice * {
+    visibility: visible;
+  }
+
+  /* خلّي الفاتورة تاخد الشاشة بالكامل أثناء الطباعة */
+  .invoice {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+
+  }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes bounce {
+  0%, 80%, 100% {
+    transform: scale(0.6);
+    opacity: 0.5;
+  }
+  40% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes scale-in {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-scale-in {
+  animation: scale-in 0.2s ease-out;
+}

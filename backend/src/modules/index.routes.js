@@ -1,0 +1,27 @@
+import authRouter from "./auth/auth.routes.js";
+import { customersRouter } from "./customers/customers.routes.js";
+import { dashboardRouter } from "./dashboard/dashboard.routes.js";
+import { helperRouter } from "./helper/data.js";
+import { inventoryRouter } from "./inventory/inventory.routes.js";
+import { profileRouter } from "./profile/profile.routes.js";
+import { purchasesRouter } from "./purchases/purchases.routes.js";
+import { reportsRouter } from "./reports/reports.routes.js";
+import { salesRouter } from "./sales/sales.routes.js";
+import { settingsRouter } from "./settings/settings.routes.js";
+import { suppliersRouter } from "./suppliers/suppliers.routes.js";
+import { usersRouter } from "./users/users.routes.js";
+export const bootstrap = (app) => {
+  app.use("/api/v1/customer", customersRouter);
+  app.use("/api/v1/sales", salesRouter);
+  app.use("/api/v1/suppliers", suppliersRouter);
+  app.use("/api/v1/purchases", purchasesRouter);
+  app.use("/api/v1/auth", authRouter);
+  app.use("/api/v1/users", usersRouter);
+  app.use("/api/v1/profile", profileRouter);
+  app.use("/api/v1/settings", settingsRouter);
+  app.use("/api/v1/inventory", inventoryRouter);
+  app.use("/api/v1/dashboard", dashboardRouter);
+  app.use("/api/v1/reports", reportsRouter);
+  app.use("/api/v1/helper", helperRouter);
+  app.get("/", (req, res) => res.send("Hello with accounting system"));
+};

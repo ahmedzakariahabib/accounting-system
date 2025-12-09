@@ -1,0 +1,102 @@
+{
+    "Invoices" : "Invoices",
+    "NewSale" : "Add New Sale",
+    "Invoicee" : "Invoice #",
+    "Customer" : "Customer Name",
+    "Amount" : "Total Amount",
+    "Date" : "Date",
+    "Payment Status" : "Payment Status",
+    "Action" :  "Actions",
+    "Showing" :  "Showing ",
+    "to" :  "to",
+    "of" :  "of",
+    "results" :  "results",
+    "NeCustomer" :  "Add New Customer",
+    "AddItem" :  "Add Item",
+    "Nots" :  "Add any notes for the sale .....",
+    "pNewSale" :"Create a new invoice for a customer transaction.",
+    "Invoicedetails": "Invoice details",
+    "Back" : "Back",
+    "print" : "print",
+    "Clothing" : "Clothing store",
+    "address": "King Fahd Street, Riyadh",
+    "country": "Kingdom of Saudi Arabia",
+    "phone": "Phone: +966 11 123 4567",
+    "invoice": "Invoice",
+    "issue_date": "Issue Date: August 15, 2024",
+    "issue_date_label": "Issue Date",
+    "issue_date_value": "August 15, 2024",
+    "due_date_label": "Due Date",
+    "due_date_value": "August 30, 2024",
+    "invoice_to": "Invoice To:",
+    "title": "Mr.",
+    "name": "Abdullah Qasim",
+    "addressname": "Prince Mohammed Bin Abdulaziz Street, Jeddah",
+    "subtotal": "Subtotal",
+    "discount": "Discount (10%)",
+    "vat": "Value Added Tax (15%)",
+    "total": "Total Amount",
+    "thank_you": "Thank you for your business!",
+    "invoice_note": "If you have any questions about this invoice, please contact us.",
+    "purchases": "Purchases",
+    "purchases_description": "Manage your supplier purchases.",
+    "add_purchase": "Add Purchase",
+    "number": "Number",
+    "": "Supplier",
+    "payment": "Payment",
+    "itemList": "Item List",
+    "addNewItem": "Add New Item",
+    "itemName": "Item Name",
+    "size": "Size",
+    "color": "Color",
+    "price": "Price",
+    "availableQuantity": "Available Quantity",
+    "status": "Status",
+    "action": "Edit",
+    "available": "Available",
+    "lowStock": "Low Stock",
+      "addNewPurchase": "Add New Purchase",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "newSale": {
+    "title": "New Sale Invoice",
+    "subtitle": "Add a new sale and generate an invoice",
+    "customer": "Customer",
+    "selectCustomer": "Search or select a customer",
+    "newCustomer": "New Customer",
+    "addItem": "Add Item",
+    "notes": "Notes",
+    "notesPlaceholder": "Write notes about the sale...",
+    "subtotal": "Subtotal",
+    "tax": "Tax (5%)",
+    "discount": "Discount",
+    "total": "Grand Total",
+    "cancel": "Cancel",
+    "print": "Print Invoice",
+    "save": "Save Sale"
+  }
+}

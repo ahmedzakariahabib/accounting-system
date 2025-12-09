@@ -1,0 +1,574 @@
+{
+  "validation": {
+    "emailInvalid": "الرجاء إدخال بريد إلكتروني صالح",
+    "emailRequired": "البريد الإلكتروني مطلوب",
+    "passwordRequired": "كلمة المرور مطلوبة",
+    "passwordMin": "كلمة المرور يجب ألا تقل عن 8 أحرف",
+    "passwordUppercase": "يجب أن تحتوي على حرف كبير واحد على الأقل",
+    "passwordLowercase": "يجب أن تحتوي على حرف صغير واحد على الأقل",
+    "passwordNumber": "يجب أن تحتوي على رقم واحد على الأقل",
+    "passwordSymbol": "يجب أن تحتوي على رمز خاص واحد على الأقل",
+    "nameRequired": "الاسم مطلوب",
+    "nameMin": "الاسم يجب أن يحتوي على 3 أحرف على الأقل",
+    "otpRequired": "الرجاء إدخال كود التحقق",
+    "otpInvalid": "يجب أن يحتوي الكود على 4 إلى 6 أرقام",
+    "newPasswordRequired": "كلمة المرور الجديدة مطلوبة",
+    "rePasswordRequired": "تأكيد كلمة المرور مطلوب",
+    "rePasswordMismatch": "كلمتا المرور غير متطابقتين"
+  },
+  "login": {
+    "title": "مرحبًا بعودتك",
+    "subtitle": "قم بتسجيل الدخول لإدارة عمليات المتجر.",
+    "emailLabel": "اسم المستخدم أو البريد الإلكتروني",
+    "emailPlaceholder": "أدخل بريدك الإلكتروني",
+    "passwordLabel": "كلمة المرور",
+    "passwordPlaceholder": "أدخل كلمة المرور",
+    "forgot": "نسيت كلمة المرور؟",
+    "button": "تسجيل الدخول",
+    "loading": "جارٍ تسجيل الدخول...",
+    "success": "تم تسجيل الدخول بنجاح ✅",
+    "error": "حدث خطأ أثناء تسجيل الدخول",
+    "supportText": "للدعم الفني، يُرجى التواصل مع",
+    "supportEmail": "support@example.com"
+  },
+
+  "forgot": {
+    "title": "تأكيد البريد الإلكتروني",
+    "subtitle": "أدخل بريدك الإلكتروني لاستلام رابط إعادة تعيين كلمة المرور",
+    "emailLabel": "البريد الإلكتروني",
+    "emailPlaceholder": "أدخل بريدك الإلكتروني",
+    "button": "إرسال الرمز",
+    "loading": "جارٍ الإرسال...",
+    "success": "تم إرسال الرابط إلى البريد الإلكتروني (إن وجد)",
+    "supportText": "للدعم الفني، يُرجى التواصل مع",
+    "supportEmail": "support@example.com"
+  },
+
+  "otp": {
+    "title": "تأكيد الرمز",
+    "subtitle": "أدخل الرمز المكون من 6 أرقام الذي تم إرساله إلى بريدك الإلكتروني للمتابعة",
+    "codeLabel": "رمز التحقق",
+    "codePlaceholder": "أدخل الرمز",
+    "button": "تأكيد الرمز",
+    "loading": "جارٍ التحقق...",
+    "success": "تم التحقق بنجاح ✅",
+    "error": "رمز غير صالح أو منتهي الصلاحية",
+    "supportText": "للدعم الفني، يُرجى التواصل مع",
+    "supportEmail": "support@example.com"
+  },
+
+  "reset": {
+    "title": "إعادة تعيين كلمة المرور",
+    "subtitle": "أضف كلمة مرور جديدة وقم بتأكيدها للمتابعة",
+    "newPassword": "كلمة المرور الجديدة",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "newPasswordPlaceholder": "أدخل كلمة المرور الجديدة",
+    "confirmPasswordPlaceholder": "أعد إدخال كلمة المرور",
+    "button": "إعادة التعيين",
+    "loading": "جارٍ إعادة التعيين...",
+    "success": "تمت إعادة تعيين كلمة المرور بنجاح ✅",
+    "supportText": "للدعم الفني، يُرجى التواصل مع",
+    "supportEmail": "support@example.com"
+  },
+
+  "sidebar": {
+    "storeName": "متجر الملابس",
+    "storeSub": "النظام المحاسبي",
+    "dashboard": "لوحة التحكم",
+    "sales": "المبيعات",
+    "purchases": "المشتريات",
+    "inventory": "المخزون",
+    "customers": "العملاء",
+    "suppliers": "الموردين",
+    "reports": "التقارير",
+    "users": "المستخدمين",
+    "settings": "الإعدادات",
+    "profile": "الملف الشخصي"
+  },
+
+  "topbar": {
+    "searchPlaceholder": "ابحث في الأقسام...",
+    "noResults": "لا توجد نتائج",
+    "profile": "الملف الشخصي",
+    "settings": "الإعدادات",
+    "logout": "تسجيل الخروج"
+  },
+
+  "dashboard": {
+    "salesChartTitle": "نظرة عامة على المبيعات الشهرية",
+    "kpi": {
+      "totalSales": "إجمالي المبيعات",
+      "totalPurchases": "إجمالي المشتريات",
+      "grossProfit": "إجمالي الربح",
+      "inventoryValue": "قيمة المخزون",
+      "vsLastMonth": "مقارنة بالشهر الماضي"
+    }
+  },
+
+  "sales": {
+    "title": "فواتير المبيعات",
+    "newSale": "فاتورة جديدة",
+    "newSaleDescription": "قم بإنشاء وإدارة فاتورة بيع جديدة",
+    "editSale": "تعديل الفاتورة",
+    "editSaleDescription": "قم بتعديل تفاصيل الفاتورة المحددة",
+
+    "searchInvoice": "ابحث باسم العميل...",
+    "deleteConfirm": "هل أنت متأكد أنك تريد حذف هذه الفاتورة؟",
+    "pleaseEnterCustomer": "من فضلك أدخل اسم العميل",
+
+    "customerInformation": "بيانات العميل",
+    "customerInformationDescription": "أدخل بيانات العميل وتاريخ الفاتورة",
+    "customerName": "اسم العميل",
+    "customerNamePlaceholder": "أدخل اسم العميل",
+    "saleDate": "تاريخ البيع",
+
+    "itemsDetails": "تفاصيل المنتجات",
+    "itemsDetailsDescription": "أضف أو عدّل أو احذف المنتجات في هذه الفاتورة",
+    "itemName": "اسم المنتج",
+    "itemNamePlaceholder": "أدخل اسم المنتج",
+    "quantity": "الكمية",
+    "price": "السعر",
+    "total": "الإجمالي",
+    "actions": "الإجراء",
+    "removeItem": "حذف المنتج",
+    "addItem": "إضافة منتج",
+
+    "orderSummary": "ملخص الطلب",
+    "subtotal": "الإجمالي الفرعي",
+    "discount": "الخصم",
+    "tax": "الضريبة",
+    "grandTotal": "الإجمالي الكلي",
+
+    "cancel": "إلغاء",
+    "save": "حفظ الفاتورة",
+    "paid": "مدفوعة",
+
+    "table": {
+      "invoiceNumber": "رقم الفاتورة",
+      "customer": "العميل",
+      "amount": "المبلغ",
+      "date": "التاريخ",
+      "status": "الحالة",
+      "action": "الإجراء"
+    },
+
+    "pagination": {
+      "showing": "عرض",
+      "of": "من",
+      "results": "نتائج"
+    },
+
+    "saleNotFound": "لم يتم العثور على الفاتورة",
+    "saleNotFoundDescription": "تعذر العثور على سجل الفاتورة. يرجى التحقق مرة أخرى أو العودة إلى القائمة.",
+    "Back": "رجوع",
+    "print": "طباعة",
+    "invoiceDetails": "تفاصيل الفاتورة",
+    "invoiceDetailsDescription": "استعرض جميع بيانات الفاتورة قبل الطباعة",
+    "companyType": "متجر ملابس",
+    "address": "123 شارع الموضة، الرياض",
+    "country": "المملكة العربية السعودية",
+    "phone": "+966 555 555 555",
+    "invoice": "فاتورة",
+    "issue_date_label": "تاريخ الإصدار",
+    "due_date_label": "تاريخ الاستحقاق",
+    "invoice_to": "إصدار الفاتورة إلى",
+    "addressname": "عنوان العميل",
+    "vat": "ضريبة القيمة المضافة (15%)",
+    "totalAmount": "الإجمالي الكلي",
+    "payment_terms": "شروط الدفع",
+    "payment_terms_description": "يجب سداد المبلغ خلال 15 يومًا من تاريخ الإصدار.",
+    "contact_info": "معلومات التواصل",
+    "contact_info_description": "لأي استفسار بخصوص هذه الفاتورة، يُرجى التواصل معنا.",
+    "thank_you": "شكرًا لثقتك بنا!",
+    "invoice_note": "تم إنشاء هذه الفاتورة إلكترونيًا ولا تحتاج إلى توقيع."
+  },
+
+  "newSale": {
+    "title": "فاتورة بيع جديدة",
+    "subtitle": "أنشئ وأدر فاتورة بيع جديدة بسهولة",
+    "customer": "العميل",
+    "selectCustomer": "ابحث أو اختر عميل",
+    "newCustomer": "عميل جديد",
+    "addItem": "إضافة منتج",
+    "notes": "ملاحظات",
+    "notesPlaceholder": "اكتب أي ملاحظات أو تفاصيل خاصة هنا...",
+    "subtotal": "المجموع الفرعي",
+    "tax": "الضريبة (5%)",
+    "discount": "الخصم",
+    "total": "المجموع الكلي",
+    "cancel": "إلغاء",
+    "print": "طباعة الفاتورة",
+    "save": "حفظ الفاتورة"
+  },
+
+  "purchasess": {
+    "title": "المشتريات",
+    "addPurchase": "إضافة مشتريات",
+    "newPurchase": "فاتورة مشتريات جديدة",
+    "editPurchase": "تعديل فاتورة المشتريات",
+    "newPurchaseDescription": "إنشاء فاتورة مشتريات جديدة تحتوي على بيانات المورد والعناصر.",
+    "editPurchaseDescription": "تعديل بيانات المورد والعناصر في فاتورة المشتريات.",
+    "pleaseEnterSupplier": "الرجاء إدخال اسم المورد.",
+
+    "invoiceDetails": "تفاصيل فاتورة المشتريات",
+    "invoiceDetailsDescription": "راجع جميع بيانات فاتورة الشراء قبل الطباعة.",
+    "invoice": "فاتورة المشتريات",
+    "companyType": "متجر ملابس",
+    "address": "123 شارع الموضة، الرياض",
+    "country": "المملكة العربية السعودية",
+    "phone": "+966 555 555 555",
+    "dateLabel": "تاريخ الإصدار",
+    "supplierInfo": "بيانات المورد",
+
+    "table": {
+      "invoiceNumber": "رقم الفاتورة",
+      "supplier": "المورد",
+      "amount": "المبلغ",
+      "date": "التاريخ",
+      "status": "الحالة",
+      "action": "الإجراء"
+    },
+
+    "supplierInformation": "بيانات المورد",
+    "supplierInformationDescription": "أدخل بيانات المورد وتاريخ الشراء.",
+    "supplierName": "اسم المورد",
+    "supplierNamePlaceholder": "أدخل اسم المورد",
+    "purchaseDate": "تاريخ الشراء",
+
+    "itemsDetails": "تفاصيل الأصناف",
+    "itemsDetailsDescription": "قائمة بالأصناف المشتراة مع الأسعار والكميات.",
+    "itemName": "اسم المنتج",
+    "itemNamePlaceholder": "أدخل اسم المنتج",
+    "quantity": "الكمية",
+    "price": "السعر",
+    "total": "الإجمالي",
+    "actions": "الإجراءات",
+    "addItem": "إضافة صنف",
+    "removeItem": "حذف صنف",
+
+    "orderSummary": "ملخص الطلب",
+    "subtotal": "الإجمالي الفرعي",
+    "discount": "الخصم",
+    "tax": "ضريبة القيمة المضافة (15%)",
+    "grandTotal": "الإجمالي الكلي",
+
+    "thankYou": "شكرًا لتعاونكم معنا!",
+    "invoiceNote": "تم إنشاء هذه الفاتورة إلكترونيًا ولا تحتاج إلى توقيع.",
+
+    "print": "طباعة",
+    "back": "رجوع",
+
+    "notFound": "لم يتم العثور على الفاتورة الشرائية",
+    "notFoundDescription": "تعذر العثور على سجل الشراء. يرجى التحقق مرة أخرى أو العودة إلى القائمة.",
+
+    "searchPlaceholder": "ابحث باسم المورد...",
+    "paid": "مدفوعة",
+    "showing": "عرض",
+    "of": "من",
+    "results": "نتيجة",
+    "deleteConfirm": "هل أنت متأكد من حذف هذه الفاتورة؟",
+
+    "form": {
+      "supplierName": "اسم المورد",
+      "supplierNamePlaceholder": "أدخل اسم المورد",
+      "purchaseDate": "تاريخ الشراء",
+      "itemsDetails": "تفاصيل المنتجات",
+      "itemsDetailsDescription": "أضف المنتجات المشتراة وأسعارها.",
+      "addItem": "إضافة منتج",
+      "removeItem": "حذف",
+      "orderSummary": "ملخص الطلب",
+      "cancel": "إلغاء",
+      "save": "حفظ"
+    }
+  },
+  "invoices": {
+    "table": {
+      "invoice": "الفاتورة",
+      "customer": "العميل",
+      "amount": "المبلغ",
+      "date": "التاريخ",
+      "status": "حالة الدفع",
+      "action": "الإجراء",
+      "showing": "عرض",
+      "of": "من",
+      "results": "نتائج",
+      "paid": "مدفوعة",
+      "pending": "قيد الانتظار",
+      "overdue": "متأخرة"
+    }
+  },
+
+  "suppliers": {
+    "title": "الموردون",
+    "subtitle": "قم بإدارة جميع الموردين وسجلات معاملاتهم بسهولة.",
+    "confirmDelete": "Are you sure you want to delete this supplier?",
+    "addNewSupplier": "إضافة مورد جديد",
+    "addNewSupplierDescription": "املأ بيانات المورد لإضافته إلى قائمتك.",
+
+    "editSupplier": "تعديل المورد",
+    "pleaseEnterChanges": "يرجى إدخال التغييرات التي ترغب في إجرائها.",
+
+    "supplierAddedSuccess": "تمت إضافة المورد بنجاح!",
+    "supplierUpdatedSuccess": "تم تحديث بيانات المورد بنجاح!",
+    "supplierNotFound": "المورد غير موجود",
+    "supplierNotFoundDescription": "تعذر العثور على بيانات المورد. يرجى المحاولة مرة أخرى أو العودة إلى صفحة الموردين.",
+    "backToSuppliers": "العودة إلى الموردين",
+
+    "filter": "تصفية",
+    "searchPlaceholder": "ابحث بالاسم أو الشركة أو رقم الهاتف...",
+    "deleteConfirm": "هل أنت متأكد أنك تريد حذف هذا المورد؟",
+
+    "supplierName": "اسم المورد",
+    "supplierCompany": "اسم الشركة",
+    "phone": "رقم الهاتف",
+    "totalInvoices": "إجمالي الفواتير (ر.س)",
+    "lastTransaction": "آخر معاملة",
+    "actions": "الإجراءات",
+
+    "required": "هذا الحقل مطلوب",
+    "invalidPhone": "يجب أن يبدأ رقم الهاتف بـ 05 ويتكون من 10 أرقام",
+    "mustBeNumber": "يجب أن يكون هذا الحقل رقمًا",
+    "address": "العنوان",
+    "email": "البريد الإلكتروني",
+
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "saving": "جارٍ الحفظ...",
+
+    "table": {
+      "supplierName": "اسم المورد",
+      "supplierCompany": "اسم الشركة",
+      "supplierEmail": "البريد الإلكتروني",
+      "phone": "رقم الهاتف",
+      "address": "العنوان",
+      "lastPurchaseDate": "تاريخ آخر عملية شراء",
+      "totalInvoices": "إجمالي الفواتير (ر.س)",
+      "lastTransaction": "تاريخ آخر معاملة",
+      "actions": "الإجراءات",
+      "showing": "عرض",
+      "of": "من",
+      "results": "نتيجة"
+    }
+  },
+
+  "users": {
+    "title": "إدارة المستخدمين",
+    "subtitle": "يوجد لديك حالياً {{count}} مستخدمين مسجلين",
+    "addNew": "إضافة مستخدم جديد",
+    "searchPlaceholder": "ابحث بالاسم أو البريد أو الدور...",
+    "allStatus": "كل الحالات",
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "role": "الدور",
+    "status": "الحالة",
+    "actions": "الإجراءات",
+    "deleteConfirm": "هل أنت متأكد من حذف المستخدم {{name}}؟"
+  },
+  "supplierName": "اسم المورد",
+  "supplierCompany": "اسم الشركة",
+
+  "logout": "تسجيل الخروج",
+  "invoice_note": "إذا كان لديك أي أسئلة حول هذه الفاتورة، يرجى التواصل معنا.",
+
+  "purchases": "المشتريات",
+  "purchases_description": "إدارة مشتريات الموردين الخاصة بك.",
+  "add_purchase": "إضافة عملية شراء",
+  "payment": "الدفع",
+
+  "addNewPurchase": "إضافة عملية شراء جديدة",
+  "fill_purchase_form": "املأ النموذج أدناه لتسجيل عملية شراء جديدة.",
+  "supplierInformation": "بيانات المورد",
+  "purchaseDate": "تاريخ الشراء",
+  "purchasedItemsDetails": "تفاصيل الأصناف المشتراة",
+  "AddItem": "إضافة منتج",
+
+  "cancel": "إلغاء",
+  "save": "حفظ",
+  "NeCustomer": "إضافة عميل جديد",
+
+  "Invoicedetails": "تفاصيل الفاتورة",
+  "Back": "رجوع",
+  "print": "طباعة",
+  "Clothing": "متجر ملابس",
+  "address": "شارع الملك فهد، الرياض",
+  "country": "المملكة العربية السعودية",
+  "phone": "الهاتف: +966 11 123 4567",
+  "invoice": "فاتورة",
+  "issue_date_label": "تاريخ الإصدار",
+  "issue_date_value": "15 أغسطس 2024",
+  "due_date_label": "تاريخ الاستحقاق",
+  "due_date_value": "30 أغسطس 2024",
+  "invoice_to": "فاتورة إلى:",
+  "title": " السيد/",
+  "name": "عبدالله قاسم",
+  "addressname": "شارع الأمير محمد بن عبدالعزيز، جدة",
+  "vat": "ضريبة القيمة المضافة (15%)",
+  "thank_you": "شكراً لتعاملكم معنا!",
+
+  "mName": "الاسم",
+  "mComoany": "الشركة",
+  "ContactNumber": "رقم التواصل",
+  "totalPurchases": "إجمالي المشتريات",
+  "contactemail": "البريد الالكتروني",
+  "date": "تاريخ أخر عملية",
+
+  "addNewSupplier": "إضافة مورد جديد",
+  "addNewSupplierDescription": "أدخل تفاصيل المورد الجديد في النموذج أدناه.",
+  "Suppliername": "اسم المورد",
+  "Supplierphone": "رقم الهاتف",
+  "Suppliercompany": "اسم الشركة",
+  "totalInvoices": "إجمالي الفواتير",
+  "lastTransaction": "تاريخ أخر عملية",
+  "noRecords": "لم يتم العثور على سجلات مطابقة",
+  "searchPlaceholder": "ابحث باسم العميل أو الشركة",
+  "addNewCustomer": "إضافة عميل جديد",
+  "customerName": "اسم العميل",
+
+  "salesPerformance": "أداء المبيعات الشهري",
+  "salesOverTime": "المبيعات عبر الزمن",
+  "topSellingProducts": "المنتجات الأكثر مبيعاً",
+  "bestPerformanceThisMonth": "الأفضل أداءً هذا الشهر",
+  "averageOrderValue": "متوسط قيمة الطلب",
+  "totalOrders": "إجمالي الطلبات",
+  "totalRevenue": "إجمالي الإيرادات",
+  "salese": "المبيعات",
+  "profit_and_loss": "الأرباح والخسائر",
+  "item_movement": "حركة الأصناف",
+
+  "saveChanges": "حفظ التغييرات",
+  "successMessage": "تم تحديث كلمة المرور بنجاح ✅",
+
+  "oldPasswordRequired": "يرجى إدخال كلمة المرور الحالية",
+  "newPasswordRequired": "يرجى إدخال كلمة المرور الجديدة",
+  "confirmPasswordRequired": "يرجى تأكيد كلمة المرور الجديدة",
+  "passwordsNotMatch": "كلمتا المرور غير متطابقتين",
+  "incorrectOldPassword": "كلمة المرور الحالية غير صحيحة",
+  "passwordMinLength": "يجب أن تحتوي كلمة المرور على 6 أحرف على الأقل",
+
+  "noUser": "لم يتم العثور على مستخدم نشط",
+
+  "passwordStrength": "قوة كلمة المرور",
+  "weak": "ضعيفة",
+  "medium": "متوسطة",
+  "strong": "قوية",
+
+  "securityTips": "نصائح الأمان",
+  "tip1": "استخدم مزيجًا من الحروف الكبيرة والصغيرة والأرقام والرموز.",
+  "tip2": "تجنب استخدام كلمات مرور يسهل تخمينها مثل تاريخ الميلاد أو '123456'.",
+  "tip3": "قم بتغيير كلمة المرور بانتظام لزيادة الأمان.",
+  "tip4": "لا تشارك كلمة مرورك مع أي شخص.",
+
+  "editSupplier": "تعديل المورد",
+  "pleaseEnterChanges": "من فضلك ادخل التعديلات",
+
+  "customers": {
+    "title": "العملاء",
+    "subtitle": "عرض جميع العملاء وسجلات تعاملاتهم بسهولة.",
+    "addSupplier": "إضافة عميل جديد",
+    "filter": "تصفية",
+    "searchPlaceholder": "ابحث باسم العميل  أو رقم الهاتف...",
+    "deleteConfirm": "هل أنت متأكد أنك تريد حذف هذا المورد؟",
+    "addNewcustom": "إضافة عميل جديد",
+    "editcustom": "تعديل العميل",
+    "pleaseEnterChanges": "من فضلك ادخل التعديلات",
+    "addNewCustomerDescription": "أدخل تفاصيل العميل الجديد في النموذج أدناه.",
+    "Customername": "اسم العميل",
+    "Customerphone": "رقم الهاتف",
+    "CustomerEmail": "البريد الالكتروني",
+    "totalInvoices": "إجمالي الفواتير",
+    "lastTransaction": "تاريخ أخر عملية"
+  },
+
+  "company": {
+    "subtitle": "إدارة بيانات الشركة والعلامة التجارية والإعدادات.",
+    "info": {
+      "title": "معلومات الشركة",
+      "name": "اسم الشركة",
+      "address": "العنوان",
+      "phone": "رقم الهاتف",
+      "email": "البريد الإلكتروني",
+      "tax": "الرقم الضريبي",
+      "website": "الموقع الإلكتروني"
+    },
+    "logo": {
+      "title": "شعار الشركة",
+      "click": "اضغط للتحميل",
+      "orDrop": "أو اسحب وأسقط",
+      "fileTypes": "PNG أو JPG أو GIF حتى 5MB"
+    },
+    "appearance": {
+      "title": "المظهر",
+      "darkMode": "الوضع الليلي"
+    },
+    "button": {
+      "save": "حفظ التغييرات",
+      "cancel": "إلغاء"
+    }
+  },
+  "inventory": {
+    "title": "المخزون",
+    "addNewItem": "إضافة صنف جديد",
+    "newItem": "عنصر جديد",
+    "editItem": "تعديل العنصر",
+    "newItemDescription": "املأ الحقول التالية لإضافة صنف جديد إلى المخزون.",
+    "editItemDescription": "قم بتحديث بيانات الصنف الموجودة في المخزون.",
+    "basicInfo": "المعلومات الأساسية",
+    "basicInfoDescription": "أدخل المعلومات الأساسية للصنف مثل الاسم والفئة والمورد.",
+    "itemName": "اسم العنصر",
+    "itemNamePlaceholder": "مثال: تيشيرت صيفي",
+    "category": "الفئة",
+    "categoryPlaceholder": "مثال: ملابس علويّة",
+    "supplier": "المورد",
+    "selectSupplier": "اختر المورد",
+    "specifications": "المواصفات",
+    "specificationsDescription": "أدخل تفاصيل إضافية للصنف مثل المقاس واللون والرمز SKU.",
+    "size": "المقاس",
+    "color": "اللون",
+    "sku": "رمز SKU",
+    "colorPlaceholder": "مثال: أزرق",
+    "pricingStock": "السعر والمخزون",
+    "pricingStockDescription": "أدخل كمية المخزون والسعر والحد الأدنى للمخزون.",
+    "quantity": "الكمية",
+    "price": "السعر",
+    "lowStockThreshold": "حد المخزون المنخفض",
+    "save": "حفظ",
+    "saving": "جارٍ الحفظ...",
+    "confirmSave": "تأكيد الحفظ",
+    "confirmSaveMessage": "هل تريد حفظ هذا العنصر الجديد؟",
+    "confirmEdit": "تأكيد التعديل",
+    "confirmEditMessage": "هل تريد حفظ التعديلات على هذا العنصر؟",
+    "search": "ابحث في المخزون...",
+    "noResults": "لا توجد نتائج",
+    "actions": "الإجراءات",
+    "addNewItemPageTitle": "إضافة صنف جديد",
+    "editItemPageTitle": "تعديل الصنف",
+    "columns": {
+      "itemName": "اسم الصنف",
+      "category": "الفئة",
+      "size": "المقاس",
+      "color": "اللون",
+      "price": "السعر",
+      "quantity": "الكمية",
+      "status": "الحالة",
+      "actions": "إجراءات"
+    },
+
+    "status": {
+      "inStock": "متوفر",
+      "outOfStock": "غير متوفر"
+    },
+
+    "pagination": {
+      "showing": "عرض",
+      "of": "من"
+    },
+
+    "confirmDelete": "تأكيد الحذف",
+    "confirmDeleteMessage": "هل أنت متأكد أنك تريد حذف هذا الصنف؟",
+    "delete": "حذف",
+    "cancel": "إلغاء"
+  },
+  "loading": "جاري التحميل..."
+}

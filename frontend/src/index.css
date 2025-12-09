@@ -1,0 +1,58 @@
+/* ستايل عام لبطاقات KPI */
+.kpi-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  text-align: right;
+  min-width: 250px;
+}
+
+/* عنوان البطاقة */
+.card-title {
+  color: #6c757d;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+/* قيمة الإيرادات */
+.card-value {
+  font-size: 32px;
+  font-weight: 700;
+  color: #212529;
+  /* إزالة dir: rtl هنا والاعتماد على dir="rtl" في المكون الرئيسي */
+}
+
+.currency-unit {
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 4px;
+}
+
+/* مؤشر التغيير (النسبة المئوية) */
+.change-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 8px;
+  /* إزالة dir: ltr هنا والاعتماد على dir="ltr" في العنصر */
+}
+
+/* لون ونوع رمز السهم */
+.change-indicator .arrow {
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+/* ستايل في حالة الزيادة (أخضر) */
+.increase {
+  color: #28a745;
+}
+
+/* ستايل في حالة النقصان (أحمر) */
+.decrease {
+  color: #dc3545;
+}
