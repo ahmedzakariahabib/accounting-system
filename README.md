@@ -12,3 +12,5 @@ A full accounting and inventory management system for clothing stores.
 - Inventory Management  
 - Reports  
 - Settings
+
+- <img width="1894" height="856" alt="Image" src="https://github.com/user-attachments/assets/904de95d-c948-438c-8b93-74530cdcadac" />
